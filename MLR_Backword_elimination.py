@@ -57,6 +57,10 @@ from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(x_train, y_train)
 y_pred = model.predict(x_test)
+import matplotlib.pyplot as plt
+plt.scatter(x_train, y_train, color='cyan')
+plt.plot(y_pred, x_train)
+plt.show()
 
 
 #building the optimal model using Backward Elimination
