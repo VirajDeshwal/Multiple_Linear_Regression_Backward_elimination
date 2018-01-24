@@ -1,0 +1,3 @@
+An Optimzed method to remove the multiclasses from the data and work with only two classes.
+The reason behind this is that the visualization of a model is done only when we have two classes. That is X and Y.
+Backward Elimination can be used in preprocessed step to use only the major impact classes from the dataset.
